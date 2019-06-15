@@ -1,0 +1,21 @@
+
+[TODO]
+
+*. Build a web page where you can enter several parameters:
+
+- Name
+- Last Name
+- Sex (Male/Female))
+- file uploading
+
+* Write 2 API services to the NodeJs server
+- file uploading
+- Updating personal information
+
+Service 1: the file that the user chose to mount to the server, the server will return the location of the URL file and display the image on the page
+
+Service 2: accepts the personal data that the user has filled in + URL of the file (restore from the first service) and updates the DB in the data:
+
+Table Structure:
+
+id user_name | last_name | gender | pic_url | date

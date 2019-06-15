@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- icon -->
+    <!-- <link rel="icon" href="../../00_media/icons/star.jpg" /> -->
+
+    <!-- title -->
+    <title> personal information </title>
+
+    <style>
+        #idFile {
+            padding-right: 10px;
+            font-size: 17px;
+        }
+
+        #form1,
+        #form2 {
+            /* Just to center the form on the page */
+            margin: 0 auto;
+            width: 430px;
+            /*400*/
+            /* To see the outline of the form */
+            padding: 1em;
+            border: 5px solid #CCC;
+            border-radius: 10px;
+            /*1em;*/
+            background-color: lightblue;
+        }
+
+        .rb-mf{
+            background-color: white;
+        }
+
+        #form1 #id-Private-Name {
+            margin-top: 10px;
+            text-align: right
+        }
+
+        #form1 #id-Family-Name {
+            margin-top: 20px;
+            text-align: left
+        }
+
+        #form1 #dsubmit {
+            margin-top: 20px;
+            text-align: center
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- <form class="" action="" method="post">   </form> -->
+
+        <br />
+
+        <form id="form2" class="" action="\form2" method="post">
+            <label>Private-Name: </label>
+            <br />
+            <input type="text" name="Private-Name" id="id-Private-Name">
+            <br />
+            <br />
+            <label>Family-Name: </label>
+            <br />
+            <input type="text" name="Family-Name" id="id-Family-Name">
+            <br />
+            <br />
+            <label>Sex: </label>
+            <br />
+            <span class="rb-mf">
+                <input type="radio" id="rb1" name="rb-male-female" checked>
+                <label>male</label>
+                <br />
+                <input type="radio" id="rb2" name="rb-male-female">
+                <label>female</label>
+            </span>
+            <br />
+            <br />
+            <label>file uploading: </label>
+            <br />
+            <input type="file">
+            <br />
+
+            <br />
+            <br />
+            <input type="submit" value="save">
+        </form>
+
+        <!-- 
+        <label id="idFile" for="file">File progress:</label>
+        <progress id="file" max="100" value="70"> 70% </progress> -->
+
+    </div>
+</body>
+
+</html>
